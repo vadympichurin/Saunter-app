@@ -1,0 +1,67 @@
+.routeCard-wrapper {
+    padding: 0 1rem;
+    margin:auto;
+    text-align: center;
+}
+
+.routeCard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.PageLink {}
+
+.routeCard-icon-back {
+    font-size: 2rem;
+    color: mediumblue;
+    cursor: pointer;
+}
+
+.routeCard-icon-delFavorite {
+    font-size: 2rem;
+    color: gold;
+    cursor: pointer;
+}
+
+.routeCard-icon-addFavorite {
+    font-size: 2rem;
+    color: #888888;
+    cursor: pointer;
+}
+
+.routeCard-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0
+}
+
+.routeCard-title {
+    margin-bottom: 0;
+}
+
+.routeCard-distance {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.routeCard-fullDscr {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.routeCard-map-box {}
+
+.routeCard-delBtn {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 12px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    color: red;
+}

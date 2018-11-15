@@ -1,0 +1,15 @@
+.header-wrapper {
+    height: 60px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 3px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.header-title {}
+
+.header-title-icon {
+    transform: rotate(45deg);
+    margin-right: 10px;
+}

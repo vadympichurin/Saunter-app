@@ -1,0 +1,28 @@
+.routeItem-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.routeItem-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.routeItem-info {}
+
+.routeItem-title {}
+
+.routeItem-icon {}
+
+.short-desription {
+    font-size: 1rem;
+}
+
+.route-distance {
+    font-size: 1.25rem;
+    font-weight: 700;
+}

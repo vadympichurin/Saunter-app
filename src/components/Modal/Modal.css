@@ -1,0 +1,110 @@
+.modal-wrapper {
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+    height: 90vh;
+    position: absolute;
+    top: 5vh;
+    left: 5%;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.modal-show {
+    transition: 2s;
+    top: 5vh;
+    left: 5%;
+}
+
+.modal-hide {
+    transition: 2s;
+    top: -100vh;
+    left: 5%;
+}
+
+.modal-header {
+    height: 40px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.modal-header-title {
+    margin-bottom: 0;
+}
+
+.modal-icon-close {
+    font-size: 1.5rem;
+    color: red;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+.modal-main {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 50px);
+}
+
+.modal-input-box {
+    width: 38%;
+    border-right: 2px solid lightgrey;
+    height: 100%;
+}
+
+.modal-input-form {
+    margin-bottom: 3rem;
+}
+
+.modal-input-title, .modal-input-short, .modal-input-full {
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.modal-input-title:invalid {
+    outline: 2px solid red;
+}
+
+
+.modal-input-short:invalid {
+    outline: 2px solid red;
+}
+
+.modal-input-full:invalid {
+    outline: 2px solid red;
+}
+
+.modal-input-title:valid {
+    outline: none;
+}
+
+.modal-input-short:valid {
+    outline: none;
+}
+
+.modal-input-full:valid {
+    outline: none;
+}
+
+.modal-input-short {}
+
+.modal-input-full {}
+
+.modal-mapBox {
+    width: 60%;
+    height: 100%;
+}
+.modal-addBtn {
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
